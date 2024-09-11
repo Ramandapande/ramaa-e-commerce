@@ -1,0 +1,228 @@
+/* Reset some default styles */
+body, h1, h2, h3, p, ul, li {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Basic layout styles */
+body {
+    font-family: "Poppins", sans-serif;
+    line-height: 1.6;
+    background-color: #C96868;
+}
+
+header { 
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 1rem 9%;
+    filter: drop-shadow(10px);
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    z-index: 100;
+    color: #FFEEAD;
+    padding: 10px 0;
+    font-size: 1.5rem;
+    text-underline-position: hidden;
+}
+
+.gnav {
+    color: #FFEEAD;
+    font-family: "Parisienne", cursive;
+    font-size: 2.5rem;
+}
+nav a {
+    color: #dadada;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+}
+
+.fullscreen {
+    background-image: url('wpjapan.jpg');
+    background-size: cover; /* Pastikan seluruh gambar terlihat */
+    background-position: center; /* Pusatkan gambar */
+    background-repeat: no-repeat; /* Jangan ulang gambar */
+    width: 100%;
+    height: 100vh; /* Atur tinggi elemen sesuai tinggi viewport */
+}
+
+.hide {
+    color: transparent;
+    top: 0;
+    padding-top: 100px;
+}
+.judul {
+    font-family: "Parisienne", cursive;
+    color: #D8A25E;
+    text-shadow: 2px 2px 5px rgb(0, 0, 0.5);
+    -webkit-text-stroke-color: #080808;
+    font-size: 4.5rem;
+    text-align: center;
+    margin-top: 10rem;
+    margin-bottom: 5rem;
+    letter-spacing: 0.5rem;
+}
+
+.judul-kecil {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: lighter;
+    color: #EEDF7A;
+    text-shadow: 2px 2px 5px rgb(0, 0, 0.5);
+    font-size: 2rem;
+    margin-top: 9rem;
+    text-align: start;
+    margin-bottom: 5rem;
+}
+
+.fcp {
+    background-color: #C96868;
+    width: 100%;
+}
+.produk {
+    padding-top: 5rem;
+    font-size: 3rem;
+    margin-left: 1.5rem;
+    margin-top: 10rem;
+    font-weight: bold;
+    font-family: "Parisienne", cursive;
+    margin-bottom: 0.5rem;
+}
+.products {
+    padding-bottom: 3rem;
+    top: 0%;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    display: flex;
+    gap: 4rem;
+    width: max-content;
+}
+
+.product {
+    margin-bottom: 2rem;
+    padding: 10px;
+    text-align:center;
+    width: 200px;
+}
+
+h3 {
+    margin: 0;
+    padding: 0;
+    margin-bottom: 0;
+    display: inline;
+}
+
+p {
+    display: inline;
+}
+
+.harga {
+    padding-bottom:10rem ;
+    margin-top: 0;
+    height: 100%;
+}
+
+.horizontal-scroll {
+    width: 100%;
+    overflow-x: scroll;
+}
+
+.horizontal-scroll::-webkit-scrollbar{  /*matiin gada mouse gbsa test scroll (a cuma 1 di scrollbarr)*/
+    display: none;
+}
+
+.product img {
+    box-shadow: 2px 2px 5px rgb(0, 0, 0.5);
+    max-width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+button {    
+    background-color: aqua;
+    border-radius: 10px;
+}
+
+button:hover {
+    background-color: rgb(3, 180,180);
+}
+
+.bdkntk {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #C96868;
+    font-family: Arial, sans-serif;
+}
+
+.login-container {
+    background-color: #A04747;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 2px 10px rgb(0, 0, 0.1);
+    width: 90%;
+}
+
+.login-form h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #FFEEAD;
+}
+
+.login-form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #FFEEAD;
+}
+
+.login-form input {
+    width: 100%;
+    padding-top: 7.5px;
+    padding-bottom: 7.5px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: 100;
+    align-items: center;
+    justify-items: center;
+}
+
+.untuk {
+    background-color: rgb(196, 193, 193);
+}
+
+.login-form button {
+    width: 100%;
+    padding: 10px;
+    background-color: aqua;
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.login-form button:hover {
+    background-color: rgb(3, 180, 180);
+}
+
+fo000oter { /*matiin dulu*/ 
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
